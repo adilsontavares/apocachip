@@ -47,6 +47,13 @@ Cinza auxliar -> #44485D*/
   color: #E8EBFC;
 }
 
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
 section.parallax-loezer{
   min-height: 60vh;
   max-height: 60vh;
