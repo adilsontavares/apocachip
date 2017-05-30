@@ -1,0 +1,131 @@
+/*MY CLASSES*/
+
+section.hero{
+  background-image: url('../img/bg.png');
+  background-repeat: repeat;
+  /*background-size:cover;*/
+  background-position: center center;
+  min-height: 100vh;
+}
+
+/*COLORS: 
+Azul escurao -> #3B4161
+Azul semiescurao -> #444A6A
+Azul Clarinho -> #757EA5
+Cor Destaque -> #01C7AF
+Cinza auxliar -> #44485D*/
+
+
+.background-apocachip{
+  background-color: #3B4161;
+}
+.background-apocachip-lightblack{
+ background-color: #444A6A; 
+}
+.logo-size{
+  width: 50;
+  height: 50;
+}
+
+.background-apocachip-lightblue{
+ background-color: #757EA5;
+}
+
+.background-apocachip-grey{
+ background-color: #44485D;
+}
+
+.text-apocachip-destaque{
+  color: #01C7AF;
+}
+
+.text-apocachip-black{
+  color: #3B4161;
+}
+
+.text-apocachip-white{
+  color: #E8EBFC;
+}
+
+section.parallax-loezer{
+  min-height: 60vh;
+  max-height: 60vh;
+}
+
+.header-loezer-parallax{
+  min-height: 100vh;
+}
+.apocachip-specs{
+ min-height: 100vh;
+ background-image: url('../asd.png');
+ background-position: center center;
+
+}
+
+section.research{
+  background-image: url('../img/researchbg.png');
+  background-repeat: repeat;
+  /*background-size:cover;*/
+  background-position: center center;
+  min-height: 100vh;
+}
+
+section.code{
+  background-image: url('../img/codebg.png');
+  background-repeat: repeat;
+  /*background-size:cover;*/
+  background-position: center center;
+  min-height: 100vh;
+}
+
+h5.comment{
+	color: #689f38;
+}
+span.loezer_detail{
+	color: #E52331;
+}
+
+.card-panel hr {
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), 
+  local('MaterialIcons-Regular'), 
+  url(https://fonts.gstatic.com/s/materialicons/v22/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.apocachip-font{
+  font-family: 'Quicksand', sans-serif;
+}
+
