@@ -1,5 +1,14 @@
 /*MY CLASSES*/
 
+.plans {
+
+}
+
+.plans ul > li {
+  font-size: 18px;
+  list-style-type: disc;
+}
+
 section.hero{
   background-image: url('../img/bg.png');
   background-repeat: repeat;
@@ -37,6 +46,7 @@ Cinza auxliar -> #44485D*/
 
 .text-apocachip-destaque{
   color: #01C7AF;
+  padding-top: 20px;
 }
 
 .text-apocachip-black{
@@ -64,9 +74,7 @@ section.parallax-loezer{
 }
 .apocachip-specs{
  min-height: 100vh;
- background-image: url('../asd.png');
  background-position: center center;
-
 }
 
 section.research{
