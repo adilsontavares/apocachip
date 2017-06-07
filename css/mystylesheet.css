@@ -16,7 +16,12 @@ section.hero{
   background-position: center center;
   min-height: 100vh;
 }
-
+.spec-bg{
+  background-image: url('../img/ApocaChip_Techs.png');
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
 /*COLORS: 
 Azul escurao -> #3B4161
 Azul semiescurao -> #444A6A
